@@ -14,4 +14,11 @@ contract CounterTest is Test {
     function testGreet() public {
         assertEq(hello.greet(), "Hello deep!");
     }
+
+    // testFail is the reserve keyword to check failed condition
+    function testFail() public {
+        assertEq(hello.greet(), "Hell deep!");
+        // it should be run successful run will decide the
+        // it failling correctly
+    }
 }
