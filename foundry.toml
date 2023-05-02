@@ -4,6 +4,6 @@ out = "out"
 libs = ["lib"]
 
 
-
+rpc_endpoints = {mainnet = "https://mainnet.infura.io/v3/9bdf9d6e6cba4e198623cdf0e96031bb"}
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
